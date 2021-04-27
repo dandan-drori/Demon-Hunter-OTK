@@ -46,26 +46,38 @@ const Container = styled.div`
 const LeftContainer = styled.div``;
 
 const Header = styled.h1`
-  font-size: ${({ fontSize }) => (fontSize ? fontSize : "7rem")};
+  font-size: ${({ fontSize }) => (fontSize ? fontSize : "5rem")};
   color: ${({ color }) => (color ? color : "var(--primary-color)")};
   line-height: ${({ lineHeight }) => (lineHeight ? lineHeight : "1.4")};
   letter-spacing: 1px;
+
+  @media only screen and (min-width: 768px) {
+    font-size: 7em;
+  }
 `;
 
 const SubHeader = styled.h3`
-  font-size: ${({ fontSize }) => (fontSize ? fontSize : "3rem")};
+  font-size: ${({ fontSize }) => (fontSize ? fontSize : "2em")};
   color: ${({ color }) => (color ? color : "#ccc")};
   line-height: ${({ lineHeight }) => (lineHeight ? lineHeight : "1.2")};
   margin-bottom: ${({ marginBottom }) =>
     marginBottom ? marginBottom : "2rem"};
+
+  @media only screen and (min-width: 768px) {
+    font-size: 3em;
+  }
 `;
 
 const SubSubHeader = styled.div`
-  font-size: ${({ fontSize }) => (fontSize ? fontSize : "1.7rem")};
+  font-size: ${({ fontSize }) => (fontSize ? fontSize : "1.5rem")};
   color: ${({ color }) => (color ? color : "#aaa")};
   max-width: ${({ maxWidth }) => (maxWidth ? maxWidth : "60rem")};
   margin-bottom: ${({ marginBottom }) =>
     marginBottom ? marginBottom : "2rem"};
+
+  @media only screen and (min-width: 768px) {
+    font-size: 1.7em;
+  }
 `;
 
 const ButtonsContainer = styled.div`
