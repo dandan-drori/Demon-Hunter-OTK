@@ -16,7 +16,7 @@ const DeckStrategy = () => {
         big board or a single target while also healing you back.
         <br /> Just don't forget to copy your second{" "}
         <Rarity r="epic">Mo'arg Artificer</Rarity> using{" "}
-        <Rarity r="epic">Felosophy</Rarity> before using it as a survival tool,
+        <Rarity r="epic">Felosophy</Rarity> before using it as a removal tool,
         since it is needed to perform the OTK.
       </Text>
       <SubHeader id="otk">The OTK</SubHeader>

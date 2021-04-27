@@ -22,7 +22,7 @@ const Guide = () => {
   };
 
   useEffect(() => {
-    setTimeout(firstPaint, 2000);
+    setTimeout(firstPaint, 1500);
   }, []);
 
   return (
