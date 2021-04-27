@@ -31,7 +31,11 @@ const Text = styled.p`
   color: #ddd;
   font-size: 110%;
   margin-bottom: 1rem;
-  max-width: 60%;
+  max-width: 80%;
+
+  @media only screen and (min-width: 768px) {
+    max-width: 60%;
+  }
 `;
 
 const List = styled.ul`
