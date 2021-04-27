@@ -4298,9 +4298,9 @@ dom-converter@^0.2:
     utila "~0.4"
 
 dom-helpers@^5.0.1:
-  version "5.2.0"
-  resolved "https://registry.yarnpkg.com/dom-helpers/-/dom-helpers-5.2.0.tgz#57fd054c5f8f34c52a3eeffdb7e7e93cd357d95b"
-  integrity sha512-Ru5o9+V8CpunKnz5LGgWXkmrH/20cGKwcHwS4m73zIvs54CN9epEmT/HLqFJW3kXpakAFkEdzgy1hzlJe3E4OQ==
+  version "5.2.1"
+  resolved "https://registry.yarnpkg.com/dom-helpers/-/dom-helpers-5.2.1.tgz#d9400536b2bf8225ad98fe052e029451ac40e902"
+  integrity sha512-nRCa7CK3VTrM2NmGkIy4cbK7IZlgBE/PYMn55rrXefr5xXDP0LdtfPnblFDoVdcAfslJ7or6iqAUnx0CCGIWQA==
   dependencies:
     "@babel/runtime" "^7.8.7"
     csstype "^3.0.2"
@@ -5356,10 +5356,10 @@ functional-red-black-tree@^1.0.1:
   resolved "https://registry.npmjs.org/functional-red-black-tree/-/functional-red-black-tree-1.0.1.tgz"
   integrity sha1-GwqzvVU7Kg1jmdKcDj6gslIHgyc=
 
-generic-reusable-components@^1.0.15:
-  version "1.0.15"
-  resolved "https://registry.yarnpkg.com/generic-reusable-components/-/generic-reusable-components-1.0.15.tgz#af789fcfa13dfc1e4771b615a30456178409984e"
-  integrity sha512-XJRqpTUeHvqdsTHS3DcwvBBEqN9rTg7za7C5ShhJJkQHsuKAP1ROr4Jdg95b4KUIauENKBSKts3lAzcIMGbb2Q==
+generic-reusable-components@^1.0.17:
+  version "1.0.17"
+  resolved "https://registry.yarnpkg.com/generic-reusable-components/-/generic-reusable-components-1.0.17.tgz#9ac1db612385dfc9d7e79ae79a7245427afbf2fa"
+  integrity sha512-I6yHkzGnaTIVkiAxVEPOFsLeaL1c8QGAdtwr4n6Et0iEfH2wypsf3b+o+jdXKaMCyRhuJJ+8JjIVYrGMj5a02g==
   dependencies:
     "@material-ui/core" "^4.11.3"
     "@material-ui/icons" "^4.11.2"

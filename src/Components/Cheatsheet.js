@@ -95,7 +95,12 @@ const TableRow = styled.tr`
 const TableHeader = styled.th`
   border: 1px solid #dddddd;
   text-align: left;
-  padding: 0.5rem;
+  padding: 0.2rem;
+  font-size: 0.8em;
+
+  @media only screen and (min-width: 768px) {
+    padding: 0.5rem;
+  }
 `;
 
 const TableData = styled.td`
